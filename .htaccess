@@ -1,0 +1,7 @@
+AuthUserFile .htpasswd
+AuthType Basic
+AuthName "My Porfolio"
+
+<Files "index.html">
+  Require valid-user
+</Files>
